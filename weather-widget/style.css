@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html { 
+    font-size: 1px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #222;
+    background-image: url('images/pexels-pixabay-355508.jpg');
+    background-size: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    font-weight: 600;
+    width: 600rem;
+    height: min-content;
+    margin: 50rem auto;
+    background: transparent;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dropdown {
+    width: 180rem;
+    margin: 10rem auto;
+    border: 3rem solid #403127;
+    border-radius: 3rem;
+    overflow: hidden;
+    background-color: #ff8d1a;
+}
+
+.dropdown select {
+    padding: 5rem 8rem;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: #ff8d1a;
+    background-image: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16rem;
+    font-weight: 600;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.dropdown select:focus {
+    outline: none;
+}
+
+.brief {
+    padding: 10rem;
+    height: 45rem;
+    background-color: #403127;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3rem;
+    margin: 5rem;
+    color: rgba(255, 251, 239);
+    box-shadow: 1rem 1rem 10rem #000;
+    cursor: pointer;
+}
+
+.brief .date, .brief .temp {
+    width: 100rem;
+}
+
+.brief .temp {
+    text-align: end;
+}
+
+.brief:hover {
+    margin-bottom: 10rem;
+    background-color: #ff8d1a;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(255, 251, 239, 0.3);
+    margin: 0 10rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 10rem #000;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.details > div {
+    width: 40%;
+}
+
+.main .date {
+    font-size: 20rem;
+    margin-top: -15rem;
+}
+
+.main .pane {
+    display: flex;
+    font-size: 48rem;
+}
+
+.pane > * {
+    margin: auto;
+}
+
+.description {
+    margin-top: 0;
+    font-size: 18rem;
+    font-style: italic;
+}
+
+.secondary {
+    display: flex;
+}
+
+.secondary ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: auto;
+    line-height: 1.9;
+}
+
+.active {
+    height: 223rem;
+    margin: 10rem;
+}
+
+.orange {
+    background-color: #ff8d1a;
+}

@@ -1,0 +1,1 @@
+Some projects written using native JavaScript/HTML/CSS mainly for educational purposes.
